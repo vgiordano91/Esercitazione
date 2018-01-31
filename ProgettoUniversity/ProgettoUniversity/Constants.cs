@@ -31,5 +31,8 @@ namespace ProgettoUniversity
         public const string MSG_RESULT_STATUS_OK = "OK";
         public const string MSG_RESULT_STATUS_NOK = "KO";
         public const string MSG_RESULT_MESSAGE_OK = "Operation completed successfully";
+
+
+
     }
 }
