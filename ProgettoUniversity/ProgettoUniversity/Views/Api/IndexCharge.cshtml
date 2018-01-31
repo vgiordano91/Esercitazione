@@ -1,0 +1,26 @@
+﻿@model ProgettoUniversity.Models.API.SVCChargeOperationViewModel
+    
+@{
+    ViewData["Title"] = "IndexCharge";
+}
+
+<h2>IndexCharge</h2>
+
+<form asp-action="ChargeSvc" method="post">
+
+    <div class="row">
+        <div class="col-md-6">
+            Numero carta: <input type="text" name="cardCode" required data-min-length="34" data-max-lenght="34" />
+        </div>
+        <div class="col-md-6">
+            Importo: <input type="text" name="oldCardCode" required />
+        </div>
+    </div>
+    @*StoredValueCardReceipt.Payments.CardCode  -- CardCode  ---StoredValueCardReceipt.Products.Price*@
+
+    <button type="submit"> RICARICA </button>
+
+</form>
+
+
+

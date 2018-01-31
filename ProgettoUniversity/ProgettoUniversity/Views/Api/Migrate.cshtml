@@ -1,0 +1,23 @@
+﻿@model ProgettoUniversity.Models.API.SVCMigrationOperationViewModel
+@{
+    ViewData["Title"] = "Migrate";
+}
+
+<h2>Migrate</h2>
+
+<form asp-action="MigrateSvc" method="post">
+
+    <div class="row">
+        <div class="col-md-6">
+            carta da migrare: <input type="text" name="cardCode" required data-min-length="34" data-max-lenght="34" />
+        </div>
+        <div class="col-md-6">
+            codice nuova carta: <input type="text" name="price" required />
+        </div>
+
+    </div>
+
+    <button type="submit" > MIGRAZIONE </button>
+
+</form>
+

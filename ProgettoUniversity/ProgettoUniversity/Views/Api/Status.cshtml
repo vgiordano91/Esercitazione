@@ -1,0 +1,87 @@
+﻿@model ProgettoUniversity.Models.API.CardDetailViewModel
+
+@{
+    ViewData["Title"] = "Status";
+}
+
+<h2>Status</h2>
+
+<form asp-action="AttivaCarta" method="post">
+
+    <div class="row form-group">
+        <div class="col-lg-3">
+            <label>Balance</label>
+        </div>
+        <div class="col-lg-3">
+            <input type="text" readonly name="CurrentBalance" value="@Model.CurrentBalance" class="form-control">
+        </div>
+    </div>
+
+    <div class="row form-group">
+        <div class="col-lg-3">
+            <label>Status</label>
+        </div>
+        <div class="col-lg-3">
+            <input type="text" readonly name="CurrentStatus" value="@Model.CurrentStatus" class="form-control">
+        </div>
+    </div>
+
+    <div class="row form-group">
+        <div class="col-lg-3">
+            <label>SerialNumber</label>
+        </div>
+        <div class="col-lg-3">
+            <input type="text" readonly name="SerialNumber" value="@Model.SerialNumber" class="form-control">
+        </div>
+    </div>
+
+    <div class="row form-group">
+        <div class="col-lg-3">
+            <label>WebSerialNumber</label>
+        </div>
+        <div class="col-lg-3">
+            <input type="text" readonly name="WebSerialNumber" value="@Model.WebSerialNumber" class="form-control">
+        </div>
+    </div>
+
+    <div class="row form-group">
+        <div class="col-lg-3">
+            <label>ExpiryDate</label>
+        </div>
+        <div class="col-lg-3">
+            <input type="text" readonly name="ExpiryDate" value="@Model.ExpiryDate" class="form-control">
+        </div>
+    </div>
+
+
+    <div class="row form-group">
+        <div class="col-lg-3">
+            <label>ResultMessage</label>
+        </div>
+        <div class="col-lg-3">
+            <input type="text" readonly name="ResultMessage" value="@Model.ResultMessage" class="form-control">
+        </div>
+    </div>
+
+
+    <div class="row form-group">
+        <div class="col-lg-3">
+            <label>ResultCode</label>
+        </div>
+        <div class="col-lg-3">
+            <input type="text" readonly name="ResultCode" value="@Model.ResultCode" class="form-control">
+        </div>
+    </div>
+
+    <div class="row form-group">
+        <div class="col-lg-3">
+            <label>ResultStatus</label>
+        </div>
+        <div class="col-lg-3">
+            <input type="text" readonly name="ResultStatus" value="@Model.ResultStatus" class="form-control">
+        </div>
+    </div>
+
+
+    <button type="submit"> ATTIVA CARTA </button>
+</form>

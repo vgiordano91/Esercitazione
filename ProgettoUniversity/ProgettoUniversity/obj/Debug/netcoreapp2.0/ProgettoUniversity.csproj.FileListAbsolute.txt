@@ -1,0 +1,11 @@
+C:\Users\vg\source\repos\ProgettoUniversity\ProgettoUniversity\bin\Debug\netcoreapp2.0\ProgettoUniversity.deps.json
+C:\Users\vg\source\repos\ProgettoUniversity\ProgettoUniversity\bin\Debug\netcoreapp2.0\ProgettoUniversity.runtimeconfig.json
+C:\Users\vg\source\repos\ProgettoUniversity\ProgettoUniversity\bin\Debug\netcoreapp2.0\ProgettoUniversity.runtimeconfig.dev.json
+C:\Users\vg\source\repos\ProgettoUniversity\ProgettoUniversity\bin\Debug\netcoreapp2.0\ProgettoUniversity.dll
+C:\Users\vg\source\repos\ProgettoUniversity\ProgettoUniversity\bin\Debug\netcoreapp2.0\ProgettoUniversity.pdb
+C:\Users\vg\source\repos\ProgettoUniversity\ProgettoUniversity\obj\Debug\netcoreapp2.0\ProgettoUniversity.csproj.CoreCompileInputs.cache
+C:\Users\vg\source\repos\ProgettoUniversity\ProgettoUniversity\obj\Debug\netcoreapp2.0\ProgettoUniversity.AssemblyInfoInputs.cache
+C:\Users\vg\source\repos\ProgettoUniversity\ProgettoUniversity\obj\Debug\netcoreapp2.0\ProgettoUniversity.AssemblyInfo.cs
+C:\Users\vg\source\repos\ProgettoUniversity\ProgettoUniversity\obj\Debug\netcoreapp2.0\ProgettoUniversity.dll
+C:\Users\vg\source\repos\ProgettoUniversity\ProgettoUniversity\obj\Debug\netcoreapp2.0\ProgettoUniversity.pdb
+C:\Users\vg\source\repos\ProgettoUniversity\ProgettoUniversity\obj\Debug\netcoreapp2.0\ProgettoUniversity.csprojResolveAssemblyReference.cache

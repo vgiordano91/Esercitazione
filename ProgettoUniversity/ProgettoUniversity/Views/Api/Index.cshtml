@@ -1,0 +1,32 @@
+﻿@model ProgettoUniversity.Models.API.CardInputViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>API</h2>
+
+<form asp-action="Operations" method="post">
+    <div class="form-actions no-color">
+        <p>
+            Inserisci il numero di carta: <input type="text" name="cardCode" required data-min-length="34" data-max-length="34" /><br /><br />
+            <select name="typeOperation">
+                <option value="1">Status</option>
+                <option value="2">Saldo</option>
+                <option value="3">Transazioni</option>
+            </select>
+            <input type="submit" value="Start" />
+        </p>
+    </div>
+</form>
+
+
+<br /><br />
+
+<form asp-action="CreateSvc" method="post">
+    ID CAMPAGNA: <input type="text" name="CampaignID" required /><br /><br />
+    VALORE CARTA: <input type="text" name="CardValue" required /><br />
+
+    <button type="submit"> CREA </button>
+</form>
+
+

@@ -1,0 +1,75 @@
+﻿@model ProgettoUniversity.Models.API.CreateResultViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+
+<div class="row form-group">
+    <div class="col-lg-3">
+        <label>Service Number</label>
+    </div>
+    <div class="col-lg-3">
+        <input type="text" readonly value="@Model.SerialNumber" class="form-control">
+    </div>
+</div>
+
+<div class="row form-group">
+    <div class="col-lg-3">
+        <label>Web Serial Number</label>
+    </div>
+    <div class="col-lg-3">
+        <input type="text" readonly value="@Model.WebSerialNumber" class="form-control">
+    </div>
+</div>
+
+<div class="row form-group">
+    <div class="col-lg-3">
+        <label>Issue Date</label>
+    </div>
+    <div class="col-lg-3">
+        <input type="text" readonly value="@Model.IssueDate" class="form-control"/>
+    </div>
+</div>
+
+<div class="row form-group">
+    <div class="col-lg-3">
+        <label>Transaction ID</label>
+    </div>
+    <div class="col-lg-3">
+        <input type="text" readonly value="@Model.TransactionID" class="form-control">
+    </div>
+</div>
+
+<div class="row form-group">
+    <div class="col-lg-3">
+        <label>Result Status</label>
+    </div>
+    <div class="col-lg-3">
+        <input type="text" readonly value="@Model.ResultStatus" class="form-control">
+    </div>
+</div>
+
+<div class="row form-group">
+    <div class="col-lg-3">
+        <label>ResultMessage</label>
+    </div>
+    <div class="col-lg-3">
+        <input type="text" readonly value="@Model.ResultMessage" class="form-control">
+    </div>
+</div>
+
+<div class="row form-group">
+    <div class="col-lg-3">
+        <label>ResultCode</label>
+    </div>
+    <div class="col-lg-3">
+        <input type="text" readonly value="@Model.ResultCode" class="form-control">
+    </div>
+</div>
+
+
+
+

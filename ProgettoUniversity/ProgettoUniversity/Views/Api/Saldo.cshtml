@@ -1,0 +1,53 @@
+﻿@model ProgettoUniversity.Models.API.CardDetailViewModel
+
+@{
+    ViewData["Title"] = "Saldo";
+}
+
+<h2>Saldo</h2>
+
+<div class="row form-group">
+    <div class="col-lg-3">
+        <label>Balance</label>
+    </div>
+    <div class="col-lg-3">
+        <input type="text" readonly value="@Model.CurrentBalance" class="form-control">
+    </div>
+</div>
+
+<div class="row form-group" " >
+    <div class="col-lg-3">
+        <label>Status</label>
+    </div>
+    <div class="col-lg-3">
+        <input type="text" readonly value="@Model.CurrentStatus" class="form-control">
+    </div>
+</div>
+
+<div class="row form-group" " >
+    <div class="col-lg-3">
+        <label>SerialNumber</label>
+    </div>
+    <div class="col-lg-3">
+        <input type="text" readonly value="@Model.SerialNumber" class="form-control">
+    </div>
+</div>
+
+<div class="row form-group" " >
+    <div class="col-lg-3">
+        <label>WebSerialNumber</label>
+    </div>
+    <div class="col-lg-3">
+        <input type="text" readonly value="@Model.WebSerialNumber" class="form-control">
+    </div>
+</div>
+
+<div class="row form-group" " >
+    <div class="col-lg-3">
+        <label>ExpiryDate</label>
+    </div>
+    <div class="col-lg-3">
+        <input type="text" readonly value="@Model.ExpiryDate" class="form-control">
+    </div>
+</div>
+
